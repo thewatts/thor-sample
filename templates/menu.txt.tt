@@ -1,0 +1,5 @@
+Here is our <%= options[:meal] %> menu!
+
+<% options[:dishes].each do |dish| %>
+  <%= dish %>
+<% end %>
